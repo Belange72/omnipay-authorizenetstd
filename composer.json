@@ -1,5 +1,5 @@
 {
-    "name": "fuzion/authorizenetstd",
+    "name": "fuzion/omnipay-authorizenetstd",
     "type": "library",
     "description": "Authorize.Net standardised gateway for the Omnipay payment processing library. Extends & standardises main version",
     "keywords": [
