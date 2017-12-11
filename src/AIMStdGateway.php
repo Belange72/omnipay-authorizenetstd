@@ -21,7 +21,7 @@ class AIMStdGateway extends \Omnipay\AuthorizeNet\AIMGateway {
    */
   public function capture(array $parameters = array())
   {
-    return $this->createRequest('\Omnipay\AuthorizeNet\Message\AIMCaptureRequestStd', $parameters);
+    return $this->createRequest('\Omnipay\AuthorizeNetStd\Message\AIMCaptureRequestStd', $parameters);
   }
 
   /**
@@ -30,6 +30,6 @@ class AIMStdGateway extends \Omnipay\AuthorizeNet\AIMGateway {
    */
   public function purchase(array $parameters = array())
   {
-    return $this->createRequest('\Omnipay\AuthorizeNet\Message\AIMPurchaseRequestStd', $parameters);
+    return $this->createRequest('\Omnipay\AuthorizeNetStd\Message\AIMPurchaseRequestStd', $parameters);
   }
 }

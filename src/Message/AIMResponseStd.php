@@ -7,7 +7,7 @@ use Omnipay\AuthorizeNet\Message\AIMResponse;
 /**
  * Authorize.Net AIM Response
  */
-class AIMResponseStd extends AbstractResponse
+class AIMResponseStd extends AIMResponse
 {
   /**
    * Get transaction reference.

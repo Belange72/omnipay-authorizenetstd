@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\AuthorizeNet\Message;
+namespace Omnipay\AuthorizeNetStd\Message;
 
 /**
  * Authorize.Net AIM Purchase Request

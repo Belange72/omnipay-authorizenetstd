@@ -20,4 +20,9 @@ class AIMAuthorizeRequestStd extends AIMAuthorizeRequest
     return $this->response = new AIMResponseStd($this, $httpResponse->getBody());
   }
 
+  public function setTransactionReference($value)
+  {
+    return $this->setParameter('transactionReference', $value);
+  }
+
 }
