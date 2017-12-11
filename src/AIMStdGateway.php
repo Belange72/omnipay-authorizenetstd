@@ -12,7 +12,7 @@ class AIMStdGateway extends \Omnipay\AuthorizeNet\AIMGateway {
    */
   public function authorize(array $parameters = array())
   {
-    return $this->createRequest('\Omnipay\AuthorizeNet\Message\AIMAuthorizeRequestStd', $parameters);
+    return $this->createRequest('\Omnipay\AuthorizeNetStd\Message\AIMAuthorizeRequestStd', $parameters);
   }
 
   /**
